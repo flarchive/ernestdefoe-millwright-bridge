@@ -1,0 +1,49 @@
+{
+    "name": "ernestdefoe/millwright-bridge",
+    "description": "Upgrade a Flarum 1.8 forum to Flarum 2.0 from the admin page: checks every extension, builds Flarum 2 beside the live forum, swaps it in, and puts everything back if anything fails.",
+    "keywords": ["flarum", "upgrade", "flarum 2", "migration"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ernest Defoe",
+            "homepage": "https://ernestdefoe.online"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ernestdefoe/millwright-bridge/issues",
+        "source": "https://github.com/ernestdefoe/millwright-bridge"
+    },
+    "require": {
+        "php": "^8.1",
+        "flarum/core": "^1.8",
+        "composer/composer": "^2.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ErnestDefoe\\MillwrightBridge\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ErnestDefoe\\MillwrightBridge\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Millwright Bridge",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-archway",
+                "color": "#fff",
+                "backgroundColor": "#B4602F"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

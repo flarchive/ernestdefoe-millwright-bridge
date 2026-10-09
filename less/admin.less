@@ -1,0 +1,27 @@
+// Flarum's .container sets its own padding, so the gap under the header goes on the intro.
+.BridgePage { padding-bottom: 20px; max-width: 900px; }
+.BridgePage .BridgePage-intro { margin-top: 30px; }
+.BridgePage-intro { color: var(--muted-color); margin-bottom: 20px; }
+.BridgePage-error { padding: 10px 14px; border-radius: 6px; background: var(--alert-error-bg, #fcdede); color: var(--alert-error-color, #a62f2f); margin-bottom: 16px; }
+.BridgeStep {
+  border: 1px solid var(--control-bg);
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  h3 { margin: 0 0 8px; font-size: 16px; }
+  &.is-locked { opacity: .55; }
+}
+.BridgeOk { color: #2d7d46; font-weight: 600; }
+.BridgeWorking { font-weight: 600; }
+.BridgeList { padding-left: 20px; margin: 10px 0; li { margin: 4px 0; } }
+.BridgeList--blockers li { color: #a62f2f; }
+.BridgeTable {
+  width: 100%;
+  margin: 12px 0 16px;
+  border-collapse: collapse;
+  font-size: 13px;
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--control-bg); }
+  tr.is-none td:last-child { color: #a62f2f; font-weight: 600; }
+  tr.is-replaced td:last-child, tr.is-retired td:last-child, tr.is-unknown td:last-child { color: #9a6700; }
+}
+.BridgeOutput { max-height: 260px; overflow: auto; font-size: 12px; background: var(--control-bg); padding: 10px; border-radius: 6px; white-space: pre-wrap; }
