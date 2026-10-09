@@ -1,0 +1,31 @@
+{
+    "name": "ernestdefoe/millwright-bridge",
+    "description": "You made it to Flarum 2! Millwright Bridge has done its job, and Millwright keeps this forum up to date from here. You can disable and remove Bridge now.",
+    "keywords": ["flarum", "upgrade", "flarum 2"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ernest Defoe",
+            "homepage": "https://ernestdefoe.online"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ernestdefoe/millwright-bridge/issues",
+        "source": "https://github.com/ernestdefoe/millwright-bridge"
+    },
+    "require": {
+        "flarum/core": "^2.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Millwright Bridge (done)",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-flag-checkered",
+                "color": "#fff",
+                "backgroundColor": "#2D7D46"
+            }
+        }
+    }
+}
