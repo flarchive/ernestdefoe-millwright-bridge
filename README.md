@@ -2,13 +2,19 @@
 
 > **Read-only archive of released versions of ernestdefoe/millwright-bridge.** Not for installation: use [Packagist](https://packagist.org/packages/ernestdefoe/millwright-bridge) or the [upstream repository](https://github.com/ernestdefoe/millwright-bridge).
 
-**0** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/ernestdefoe-millwright-bridge/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0`
+**7** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/ernestdefoe-millwright-bridge/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.1.0` | 2026-10-09 | `^1.8` | [Browse](https://github.com/flarchive/ernestdefoe-millwright-bridge/tree/archive/v0.1.0) |
+| `v0.1.1` | 2026-10-09 | `^1.8` | [Browse](https://github.com/flarchive/ernestdefoe-millwright-bridge/tree/archive/v0.1.1) |
+| `v0.1.2` | 2026-10-09 | `^1.8` | [Browse](https://github.com/flarchive/ernestdefoe-millwright-bridge/tree/archive/v0.1.2) |
+| `v1.0.0` | 2026-10-09 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-millwright-bridge/tree/archive/v1.0.0) |
+| `v0.1.3` | 2026-10-09 | `^1.8` | [Browse](https://github.com/flarchive/ernestdefoe-millwright-bridge/tree/archive/v0.1.3) |
+| `v0.1.4` | 2026-10-09 | `^1.8` | [Browse](https://github.com/flarchive/ernestdefoe-millwright-bridge/tree/archive/v0.1.4) |
+| `v0.1.5` | 2026-10-09 | `^1.8` | [Browse](https://github.com/flarchive/ernestdefoe-millwright-bridge/tree/archive/v0.1.5) |
 
 Catalog entry: [packages/ernestdefoe-millwright-bridge.json](https://github.com/flarchive/archive-index/blob/main/packages/ernestdefoe-millwright-bridge.json)
 
