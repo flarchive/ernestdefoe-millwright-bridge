@@ -1,0 +1,36 @@
+ernestdefoe-millwright-bridge:
+  admin:
+    intro: "Upgrades this forum to Flarum 2 in three steps. Nothing changes until the last one, and if anything goes wrong during it, the forum is put back exactly as it was."
+    step_check: "1. Check"
+    step_build: "2. Build Flarum 2"
+    step_upgrade: "3. Upgrade"
+    php: "This forum runs PHP {version}."
+    can_upgrade: "Everything is ready for Flarum 2."
+    check_again: "Check again"
+    check_failed: "The check could not be run. Reload the page and try again."
+    col_extension: Extension
+    col_now: Installed
+    col_flarum2: Flarum 2
+    status_ok: "Ready {version}"
+    status_none: "No Flarum 2 release: remove it first"
+    status_php: "Its Flarum 2 release ({version}) needs PHP {php}"
+    status_replaced: "Becomes {replacement}"
+    status_retired: "Removed by the upgrade: not needed on Flarum 2"
+    status_retired_by: "Removed by the upgrade: replaced by {replacement}"
+    status_self: "Removed by the upgrade: Millwright takes over"
+    status_unknown: "Not on Packagist: checked while building"
+    build_help: "Builds the complete Flarum 2 install beside this forum, which keeps running normally. If Flarum 2 cannot be built for this forum, you will see why, and nothing will have changed."
+    build: "Build Flarum 2"
+    build_again: "Build again"
+    built: "Flarum {version} is built and ready to swap in."
+    stage_failed: "Building Flarum 2 did not finish. Nothing on the forum has changed. Try again, or run php flarum bridge:upgrade from the command line to see the full output."
+    upgrade_help: "Backs up the database and settings, swaps Flarum 2 in, and updates the database. The forum is unavailable for a minute or two. If the forum does not answer afterwards, everything is put back automatically. Millwright is installed to keep Flarum 2 up to date from here on."
+    upgrade: "Back up and upgrade to Flarum 2"
+    upgrading: "Upgrading. Keep this page open; this takes a minute or two."
+    confirm: "Upgrade to Flarum 2 now? The forum is unavailable for a minute or two while this runs."
+    done_title: "This forum now runs Flarum {version}"
+    done_help: "Reload to open the Flarum 2 admin. Millwright, the updater for Flarum 2, is installed and switched on."
+    open_admin: "Open the Flarum 2 admin"
+    failed_title: "The upgrade did not complete"
+    reload: Reload
+    lost_contact: "The page lost contact with the forum while upgrading. Reload: the forum will show whether it is now on Flarum 2 or was put back on Flarum 1. If it shows an error instead, run php storage/bridge/undo.php."
